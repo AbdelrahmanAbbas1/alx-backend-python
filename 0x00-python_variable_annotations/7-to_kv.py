@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """This module uses type annotations"""
 from typing import Union, Tuple
 
