@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module defines asynchronous function"""
 import asyncio
 import random
