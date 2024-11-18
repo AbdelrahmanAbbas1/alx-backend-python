@@ -2,9 +2,10 @@
 """This module defines an async function"""
 import asyncio
 import random
+from typing import AsyncGenerator
 
 
-async def async_generator():
+async def async_generator() -> AsyncGenerator[float, None]:
     """Yields a random number every 1 second"""
     for i in range(10):
         await asyncio.sleep(1)
